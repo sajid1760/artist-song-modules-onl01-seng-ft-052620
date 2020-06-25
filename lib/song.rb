@@ -5,7 +5,7 @@ class Song
   attr_accessor :name
   attr_reader :artist
   
-  extend memorable.rb 
+  extend Memorable
 
   @@songs = []
 
