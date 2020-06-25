@@ -1,5 +1,5 @@
 require 'pry'
-require_relative 
+require_relative "./concerns"
 
 class Artist
   attr_accessor :name
